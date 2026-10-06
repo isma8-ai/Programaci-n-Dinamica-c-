@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+//Aqui van las funciones perronas. ;)
+int tablas(int contador, int n){
+    return contador * n;
+}
+void tablas(){
+
+}
+//Programaprincipal
+int main(){
+
+    int contador,n,resultado;
+    for (contador = 1; contador <= 10; contador++) {
+        for (n = 1; n <= 10; n++){
+            resultado = contador * n;
+            cout << contador << " x " << n << " = "<< resultado << endl;
+        }
+    }
+
+    return 0;
+}
